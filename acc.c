@@ -58,7 +58,6 @@ void markAttendance() {
     printf("Student not found.\n");
 }
 
-
 void saveAttendanceToFile() {
     FILE *file = fopen(CSV_FILE, "w");
     if (file == NULL) {

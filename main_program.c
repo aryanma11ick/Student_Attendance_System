@@ -58,7 +58,7 @@ int main() {
 void registerStudent(struct Student students[], int *numStudents) {
     if (*numStudents < 100) {
         printf("Enter student full name: ");
-        scanf(" %[^\n]", students[*numStudents].name);  // Read full name until newline
+        scanf("  %[^\n]", students[*numStudents].name);  // Read full name until newline
 
         printf("Enter student roll number: ");
         scanf("%d", &students[*numStudents].rollNo);
